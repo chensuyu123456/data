@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      port: 27017
+      database: ssfui
+      host: localhost
+  datasource:
+    password: N4eTVr89lX9BaPcx
+    username: sa
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ssftrdorder?useUnicode=true&connectionCollation=utf8_general_ci&characterSetResults=utf8&characterEncoding=utf-8
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  file: synchrodata.log
